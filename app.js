@@ -5,6 +5,5 @@ const add = (num1, num2) => {
 
 const myArray = ["Holly", "Imogen", "Hazel"];
 
-module.exports ={myArray}
+module.exports = {add, myArray};
 
-module.exports = {add}
