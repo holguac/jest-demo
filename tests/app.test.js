@@ -8,3 +8,7 @@ test ("Should equal 5 when passed 2 and 3", () => {
 it("should include the name Hazel", () => {
     expect(app.myArray).toContain("Hazel");
 });
+
+it("should not return null", () => {
+    expect(app.getNotNull()).not.toBeNull();
+});
