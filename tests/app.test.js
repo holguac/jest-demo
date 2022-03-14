@@ -12,3 +12,7 @@ it("should include the name Hazel", () => {
 it("should not return null", () => {
     expect(app.getNotNull()).not.toBeNull();
 });
+
+it("should be not fasly", () => {
+    expect(app.getNotFalsy()).not.toBeFalsy();
+});

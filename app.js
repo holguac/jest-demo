@@ -19,5 +19,9 @@ const getTruthy = () => {
     return "1";
 };
 
-module.exports = {add, myArray, getNotNull, getTruthy};
+const getNotFalsy = () => {
+    return {firstName: "Holly", Age:77 };
+};
+
+module.exports = {add, myArray, getNotNull, getTruthy, getNotFalsy};
 
